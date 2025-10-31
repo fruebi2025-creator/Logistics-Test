@@ -1,0 +1,674 @@
+[
+  {
+    "id": 1,
+    "question": "Which keyword is used to declare a variable in JavaScript?",
+    "options": { "A": "var", "B": "let", "C": "const", "D": "All of the above" },
+    "correctOption": "D"
+  },
+  {
+    "id": 2,
+    "question": "What will be the output of: let x = 5; console.log(typeof x);",
+    "options": { "A": "number", "B": "string", "C": "boolean", "D": "undefined" },
+    "correctOption": "A"
+  },
+  {
+    "id": 3,
+    "question": "Which of the following is NOT a data type in JavaScript?",
+    "options": { "A": "number", "B": "boolean", "C": "float", "D": "string" },
+    "correctOption": "C"
+  },
+  {
+    "id": 4,
+    "question": "What value does an uninitialized variable hold in JavaScript?",
+    "options": { "A": "null", "B": "undefined", "C": "0", "D": "false" },
+    "correctOption": "B"
+  },
+  {
+    "id": 5,
+    "question": "What is the correct way to assign the string 'Hello' to a variable?",
+    "options": { "A": "let greeting = Hello;", "B": "let greeting = 'Hello';", "C": "let greeting == 'Hello';", "D": "greeting = Hello;" },
+    "correctOption": "B"
+  },
+  {
+    "id": 6,
+    "question": "Which of the following represents a Boolean value?",
+    "options": { "A": "'true'", "B": "True", "C": "true", "D": "1" },
+    "correctOption": "C"
+  },
+  {
+    "id": 7,
+    "question": "What will be the output of: let a; console.log(a);",
+    "options": { "A": "null", "B": "undefined", "C": "0", "D": "false" },
+    "correctOption": "B"
+  },
+  {
+    "id": 8,
+    "question": "Which of the following is used to store multiple values in one variable?",
+    "options": { "A": "array", "B": "object", "C": "string", "D": "variable" },
+    "correctOption": "A"
+  },
+  {
+    "id": 9,
+    "question": "Which symbol is used for assignment?",
+    "options": { "A": "=", "B": "==", "C": "===", "D": ":" },
+    "correctOption": "A"
+  },
+  {
+    "id": 10,
+    "question": "Which of these is a valid variable name?",
+    "options": { "A": "2name", "B": "_name", "C": "-name", "D": "#name" },
+    "correctOption": "B"
+  },
+  {
+    "id": 11,
+    "question": "Which of these is a string?",
+    "options": { "A": "'123'", "B": "123", "C": "true", "D": "false" },
+    "correctOption": "A"
+  },
+  {
+    "id": 12,
+    "question": "What will typeof null return?",
+    "options": { "A": "null", "B": "object", "C": "undefined", "D": "string" },
+    "correctOption": "B"
+  },
+  {
+    "id": 13,
+    "question": "Which character is used to end a statement in JavaScript?",
+    "options": { "A": ".", "B": ",", "C": ";", "D": ":" },
+    "correctOption": "C"
+  },
+  {
+    "id": 14,
+    "question": "Which variable declaration cannot be reassigned?",
+    "options": { "A": "var", "B": "let", "C": "const", "D": "int" },
+    "correctOption": "C"
+  },
+  {
+    "id": 15,
+    "question": "Which of the following represents concatenation?",
+    "options": { "A": "+", "B": "-", "C": "*", "D": "&" },
+    "correctOption": "A"
+  },
+  {
+    "id": 16,
+    "question": "Which of these is not a primitive type?",
+    "options": { "A": "number", "B": "object", "C": "boolean", "D": "string" },
+    "correctOption": "B"
+  },
+  {
+    "id": 17,
+    "question": "let x = '10'; What is typeof x?",
+    "options": { "A": "number", "B": "string", "C": "integer", "D": "undefined" },
+    "correctOption": "B"
+  },
+  {
+    "id": 18,
+    "question": "Which function converts a string to a number?",
+    "options": { "A": "parseInt()", "B": "toNumber()", "C": "int()", "D": "convert()" },
+    "correctOption": "A"
+  },
+  {
+    "id": 19,
+    "question": "Which of these values represents nothing?",
+    "options": { "A": "null", "B": "undefined", "C": "NaN", "D": "false" },
+    "correctOption": "A"
+  },
+  {
+    "id": 20,
+    "question": "NaN stands for:",
+    "options": { "A": "Not a Null", "B": "Not a Number", "C": "No assigned Number", "D": "Negative and Null" },
+    "correctOption": "B"
+  },
+
+  {
+    "id": 21,
+    "question": "What will be the output of: 5 + '5'?",
+    "options": { "A": "10", "B": "55", "C": "Error", "D": "undefined" },
+    "correctOption": "B"
+  },
+  {
+    "id": 22,
+    "question": "Which operator is used for strict equality comparison?",
+    "options": { "A": "==", "B": "===", "C": "=", "D": "!=" },
+    "correctOption": "B"
+  },
+  {
+    "id": 23,
+    "question": "What is the result of: 10 % 3?",
+    "options": { "A": "1", "B": "3", "C": "0", "D": "10" },
+    "correctOption": "A"
+  },
+  {
+    "id": 24,
+    "question": "Which operator is used to compare both value and type?",
+    "options": { "A": "==", "B": "===", "C": "=", "D": "!=" },
+    "correctOption": "B"
+  },
+  {
+    "id": 25,
+    "question": "What is the output of: true && false?",
+    "options": { "A": "true", "B": "false", "C": "1", "D": "0" },
+    "correctOption": "B"
+  },
+  {
+    "id": 26,
+    "question": "Which operator returns true if both operands are true?",
+    "options": { "A": "&&", "B": "||", "C": "!", "D": "%" },
+    "correctOption": "A"
+  },
+  {
+    "id": 27,
+    "question": "What is the output of: !true?",
+    "options": { "A": "true", "B": "false", "C": "undefined", "D": "null" },
+    "correctOption": "B"
+  },
+  {
+    "id": 28,
+    "question": "What is the result of: 10 / 2?",
+    "options": { "A": "2", "B": "5", "C": "10", "D": "20" },
+    "correctOption": "B"
+  },
+  {
+    "id": 29,
+    "question": "Which of these is a relational operator?",
+    "options": { "A": "+", "B": ">", "C": "*", "D": "=" },
+    "correctOption": "B"
+  },
+  {
+    "id": 30,
+    "question": "What does the expression 5 != 3 evaluate to?",
+    "options": { "A": "true", "B": "false", "C": "undefined", "D": "Error" },
+    "correctOption": "A"
+  },
+  {
+    "id": 31,
+    "question": "Which operator combines two strings?",
+    "options": { "A": "+", "B": "&", "C": "concat()", "D": "join()" },
+    "correctOption": "A"
+  },
+  {
+    "id": 32,
+    "question": "What is 2 ** 3 in JavaScript?",
+    "options": { "A": "6", "B": "8", "C": "9", "D": "Error" },
+    "correctOption": "B"
+  },
+  {
+    "id": 33,
+    "question": "What is the result of '5' == 5?",
+    "options": { "A": "true", "B": "false", "C": "error", "D": "undefined" },
+    "correctOption": "A"
+  },
+  {
+    "id": 34,
+    "question": "What is the result of '5' === 5?",
+    "options": { "A": "true", "B": "false", "C": "error", "D": "undefined" },
+    "correctOption": "B"
+  },
+  {
+    "id": 35,
+    "question": "What does the ++ operator do?",
+    "options": { "A": "Adds one", "B": "Subtracts one", "C": "Multiplies by one", "D": "Divides by one" },
+    "correctOption": "A"
+  },
+  {
+    "id": 36,
+    "question": "Which operator decreases a variable’s value by one?",
+    "options": { "A": "++", "B": "--", "C": "+=", "D": "-=" },
+    "correctOption": "B"
+  },
+  {
+    "id": 37,
+    "question": "What is 10 > 5 && 5 < 3?",
+    "options": { "A": "true", "B": "false", "C": "undefined", "D": "error" },
+    "correctOption": "B"
+  },
+  {
+    "id": 38,
+    "question": "Which operator gives the remainder?",
+    "options": { "A": "/", "B": "%", "C": "**", "D": "-" },
+    "correctOption": "B"
+  },
+  {
+    "id": 39,
+    "question": "What does 5 + true evaluate to?",
+    "options": { "A": "6", "B": "5true", "C": "true5", "D": "error" },
+    "correctOption": "A"
+  },
+  {
+    "id": 40,
+    "question": "What does 5 + '2' + 3 evaluate to?",
+    "options": { "A": "10", "B": "523", "C": "55", "D": "8" },
+    "correctOption": "B"
+  },
+  {
+    "id": 41,
+    "question": "Which keyword is used to make a decision in JavaScript?",
+    "options": { "A": "for", "B": "if", "C": "switch", "D": "both B and C" },
+    "correctOption": "D"
+  },
+  {
+    "id": 42,
+    "question": "What is the correct syntax for an if statement?",
+    "options": {
+      "A": "if condition then {}",
+      "B": "if (condition) {}",
+      "C": "if {condition} then",
+      "D": "if: condition {}"
+    },
+    "correctOption": "B"
+  },
+  {
+    "id": 43,
+    "question": "What will be the output of: if (5 > 2) { console.log('Yes'); }",
+    "options": { "A": "No output", "B": "Yes", "C": "Error", "D": "Undefined" },
+    "correctOption": "B"
+  },
+  {
+    "id": 44,
+    "question": "Which statement executes if no condition is true?",
+    "options": { "A": "if", "B": "else", "C": "else if", "D": "switch" },
+    "correctOption": "B"
+  },
+  {
+    "id": 45,
+    "question": "Which statement allows multiple possible conditions?",
+    "options": { "A": "if", "B": "else if", "C": "switch", "D": "both B and C" },
+    "correctOption": "D"
+  },
+  {
+    "id": 46,
+    "question": "What will this output: let x = 5; if (x === '5') console.log('Equal'); else console.log('Not Equal');",
+    "options": { "A": "Equal", "B": "Not Equal", "C": "Error", "D": "Undefined" },
+    "correctOption": "B"
+  },
+  {
+    "id": 47,
+    "question": "In a switch statement, which keyword stops code execution?",
+    "options": { "A": "stop", "B": "break", "C": "exit", "D": "end" },
+    "correctOption": "B"
+  },
+  {
+    "id": 48,
+    "question": "Which operator is a shorthand for if-else?",
+    "options": { "A": "?:", "B": "??", "C": "=>", "D": "&&" },
+    "correctOption": "A"
+  },
+  {
+    "id": 49,
+    "question": "What does if(false) {} execute?",
+    "options": { "A": "Code runs", "B": "Code skipped", "C": "Error", "D": "null" },
+    "correctOption": "B"
+  },
+  {
+    "id": 50,
+    "question": "In nested if statements, how many conditions can be checked?",
+    "options": { "A": "Only one", "B": "Unlimited", "C": "Two", "D": "Three" },
+    "correctOption": "B"
+  },
+
+  {
+    "id": 61,
+    "question": "Which loop runs a fixed number of times?",
+    "options": { "A": "while", "B": "for", "C": "do-while", "D": "if" },
+    "correctOption": "B"
+  },
+  {
+    "id": 62,
+    "question": "Which loop executes at least once?",
+    "options": { "A": "for", "B": "while", "C": "do-while", "D": "switch" },
+    "correctOption": "C"
+  },
+  {
+    "id": 63,
+    "question": "How many times does the loop run? for(let i=0; i<3; i++)",
+    "options": { "A": "2", "B": "3", "C": "4", "D": "5" },
+    "correctOption": "B"
+  },
+  {
+    "id": 64,
+    "question": "Which statement exits a loop early?",
+    "options": { "A": "stop", "B": "exit", "C": "break", "D": "end" },
+    "correctOption": "C"
+  },
+  {
+    "id": 65,
+    "question": "Which keyword skips the current iteration?",
+    "options": { "A": "pass", "B": "skip", "C": "continue", "D": "break" },
+    "correctOption": "C"
+  },
+  {
+    "id": 66,
+    "question": "What will this output? for(let i=0; i<2; i++){console.log(i)}",
+    "options": { "A": "0 1", "B": "1 2", "C": "0 1 2", "D": "2 3" },
+    "correctOption": "A"
+  },
+  {
+    "id": 67,
+    "question": "Which loop checks its condition before running?",
+    "options": { "A": "do-while", "B": "while", "C": "for", "D": "both B and C" },
+    "correctOption": "D"
+  },
+  {
+    "id": 68,
+    "question": "What is the output of: let i=1; while(i<4){console.log(i); i++;}",
+    "options": { "A": "1 2 3", "B": "0 1 2 3", "C": "1 2 3 4", "D": "Error" },
+    "correctOption": "A"
+  },
+  {
+    "id": 69,
+    "question": "A loop inside another loop is called?",
+    "options": { "A": "double loop", "B": "nested loop", "C": "multi loop", "D": "re-loop" },
+    "correctOption": "B"
+  },
+  {
+    "id": 70,
+    "question": "Which loop can produce infinite output if not controlled?",
+    "options": { "A": "for", "B": "while", "C": "do-while", "D": "all" },
+    "correctOption": "D"
+  },
+
+  {
+    "id": 81,
+    "question": "What is the correct way to declare an array?",
+    "options": { "A": "let arr = [];", "B": "let arr = ();", "C": "let arr = {}", "D": "array arr;" },
+    "correctOption": "A"
+  },
+  {
+    "id": 82,
+    "question": "What is the index of the first element in an array?",
+    "options": { "A": "0", "B": "1", "C": "-1", "D": "first" },
+    "correctOption": "A"
+  },
+  {
+    "id": 83,
+    "question": "Which method adds a new element to the end of an array?",
+    "options": { "A": "push()", "B": "pop()", "C": "shift()", "D": "unshift()" },
+    "correctOption": "A"
+  },
+  {
+    "id": 84,
+    "question": "Which method removes the last element from an array?",
+    "options": { "A": "push()", "B": "pop()", "C": "shift()", "D": "slice()" },
+    "correctOption": "B"
+  },
+  {
+    "id": 85,
+    "question": "How do you find the length of an array?",
+    "options": { "A": "arr.count", "B": "arr.length", "C": "arr.size()", "D": "len(arr)" },
+    "correctOption": "B"
+  },
+  {
+    "id": 86,
+    "question": "What is the output of ['A','B','C'][1]?",
+    "options": { "A": "A", "B": "B", "C": "C", "D": "undefined" },
+    "correctOption": "B"
+  },
+  {
+    "id": 87,
+    "question": "Which method adds elements to the beginning of an array?",
+    "options": { "A": "push()", "B": "shift()", "C": "unshift()", "D": "concat()" },
+    "correctOption": "C"
+  },
+  {
+    "id": 88,
+    "question": "What does arr.pop() return?",
+    "options": { "A": "First element", "B": "Last element", "C": "Array length", "D": "Undefined" },
+    "correctOption": "B"
+  },
+  {
+    "id": 89,
+    "question": "Which method joins all elements of an array into a string?",
+    "options": { "A": "join()", "B": "concat()", "C": "combine()", "D": "link()" },
+    "correctOption": "A"
+  },
+  {
+    "id": 90,
+    "question": "Which loop is often used to iterate arrays?",
+    "options": { "A": "for", "B": "while", "C": "do-while", "D": "switch" },
+    "correctOption": "A"
+  },
+
+
+  {
+    "id": 101,
+    "question": "Which keyword defines a function?",
+    "options": { "A": "method", "B": "function", "C": "fun", "D": "define" },
+    "correctOption": "B"
+  },
+  {
+    "id": 102,
+    "question": "What does a function return if no return statement is used?",
+    "options": { "A": "0", "B": "null", "C": "undefined", "D": "false" },
+    "correctOption": "C"
+  },
+  {
+    "id": 103,
+    "question": "What will be output of: function add(a,b){return a+b;} console.log(add(2,3));",
+    "options": { "A": "23", "B": "5", "C": "undefined", "D": "Error" },
+    "correctOption": "B"
+  },
+  {
+    "id": 104,
+    "question": "Which keyword is used to return a value?",
+    "options": { "A": "break", "B": "continue", "C": "return", "D": "stop" },
+    "correctOption": "C"
+  },
+  {
+    "id": 105,
+    "question": "Which function type is introduced in ES6?",
+    "options": { "A": "Normal function", "B": "Arrow function", "C": "Anonymous function", "D": "Callback" },
+    "correctOption": "B"
+  },
+  {
+    "id": 106,
+    "question": "What is a function that takes another function as an argument called?",
+    "options": { "A": "Nested function", "B": "Callback function", "C": "Higher-order function", "D": "Anonymous function" },
+    "correctOption": "B"
+  },
+  {
+    "id": 107,
+    "question": "Which keyword allows a function to be reused multiple times?",
+    "options": { "A": "call", "B": "define", "C": "function", "D": "repeat" },
+    "correctOption": "C"
+  },
+  {
+    "id": 108,
+    "question": "Which function logs output to the console?",
+    "options": { "A": "print()", "B": "echo()", "C": "console.log()", "D": "log.print()" },
+    "correctOption": "C"
+  },
+  {
+    "id": 109,
+    "question": "Functions help to:",
+    "options": { "A": "Reuse code", "B": "Reduce code", "C": "Improve structure", "D": "All of the above" },
+    "correctOption": "D"
+  },
+  {
+    "id": 110,
+    "question": "Which of these is an anonymous function?",
+    "options": { "A": "function(){}", "B": "function myFunc(){}", "C": "() => {}", "D": "Both A and C" },
+    "correctOption": "D"
+  },
+
+  {
+    "id": 121,
+    "question": "What will be printed: let x=5; if(x>3){console.log('Hi');}",
+    "options": { "A": "Hi", "B": "Nothing", "C": "Error", "D": "5" },
+    "correctOption": "A"
+  },
+  {
+    "id": 122,
+    "question": "Predict output: let a=2,b=3; if(a+b==5){console.log('Yes');}",
+    "options": { "A": "Yes", "B": "No", "C": "Error", "D": "Undefined" },
+    "correctOption": "A"
+  },
+  {
+    "id": 123,
+    "question": "What is the output of: for(let i=0;i<3;i++){console.log(i)}",
+    "options": { "A": "0 1 2", "B": "1 2 3", "C": "2 3 4", "D": "Error" },
+    "correctOption": "A"
+  },
+  {
+    "id": 124,
+    "question": "Which flowchart symbol represents decision making?",
+    "options": { "A": "Rectangle", "B": "Diamond", "C": "Oval", "D": "Parallelogram" },
+    "correctOption": "B"
+  },
+  {
+    "id": 125,
+    "question": "Which flowchart symbol is used for start and end?",
+    "options": { "A": "Oval", "B": "Diamond", "C": "Rectangle", "D": "Circle" },
+    "correctOption": "A"
+  },
+  {
+    "id": 126,
+    "question": "A sequence of logical steps to solve a problem is called?",
+    "options": { "A": "Code", "B": "Algorithm", "C": "Program", "D": "Syntax" },
+    "correctOption": "B"
+  },
+  {
+    "id": 127,
+    "question": "Which statement best defines pseudocode?",
+    "options": { "A": "A code that runs", "B": "A rough logic of a program", "C": "Machine language", "D": "HTML script" },
+    "correctOption": "B"
+  },
+  {
+    "id": 128,
+    "question": "In flowcharts, arrows represent:",
+    "options": { "A": "Flow of control", "B": "Loops", "C": "Data", "D": "Decisions" },
+    "correctOption": "A"
+  },
+  {
+    "id": 129,
+    "question": "Which part of algorithm defines inputs?",
+    "options": { "A": "Initialization", "B": "Processing", "C": "Input", "D": "Output" },
+    "correctOption": "C"
+  },
+  {
+    "id": 130,
+    "question": "Which is the last step of an algorithm?",
+    "options": { "A": "Process", "B": "Output", "C": "Decision", "D": "Input" },
+    "correctOption": "B"
+  },
+  {
+    "id": 131,
+    "question": "What is debugging?",
+    "options": { "A": "Finding syntax", "B": "Finding and fixing errors", "C": "Running a program", "D": "Writing code" },
+    "correctOption": "B"
+  },
+  {
+    "id": 132,
+    "question": "What happens if an infinite loop is created?",
+    "options": { "A": "Program runs forever", "B": "Stops immediately", "C": "Error occurs", "D": "Program restarts" },
+    "correctOption": "A"
+  },
+  {
+    "id": 133,
+    "question": "Which of the following is not part of the algorithm steps?",
+    "options": { "A": "Input", "B": "Process", "C": "Style", "D": "Output" },
+    "correctOption": "C"
+  },
+  {
+    "id": 134,
+    "question": "Which symbol represents input/output in flowcharts?",
+    "options": { "A": "Oval", "B": "Parallelogram", "C": "Diamond", "D": "Rectangle" },
+    "correctOption": "B"
+  },
+  {
+    "id": 135,
+    "question": "Which of the following is NOT a control structure?",
+    "options": { "A": "Sequence", "B": "Selection", "C": "Iteration", "D": "Decoration" },
+    "correctOption": "D"
+  },
+  {
+    "id": 136,
+    "question": "An algorithm should always have:",
+    "options": { "A": "A loop", "B": "An end", "C": "A decision", "D": "A variable" },
+    "correctOption": "B"
+  },
+  {
+    "id": 137,
+    "question": "What will be the result of: let a=10; let b=5; console.log(a-b);",
+    "options": { "A": "5", "B": "10", "C": "15", "D": "0" },
+    "correctOption": "A"
+  },
+  {
+    "id": 138,
+    "question": "Which keyword is used to stop function execution early?",
+    "options": { "A": "break", "B": "stop", "C": "return", "D": "end" },
+    "correctOption": "C"
+  },
+  {
+    "id": 139,
+    "question": "In algorithms, which term describes repeating steps until a condition is met?",
+    "options": { "A": "Recursion", "B": "Looping", "C": "Selection", "D": "Decision" },
+    "correctOption": "B"
+  },
+  {
+    "id": 140,
+    "question": "Which operator increases value by one?",
+    "options": { "A": "+", "B": "++", "C": "+=", "D": "--" },
+    "correctOption": "B"
+  },
+  {
+    "id": 141,
+    "question": "What type of structure allows making choices?",
+    "options": { "A": "Selection", "B": "Sequence", "C": "Iteration", "D": "Loop" },
+    "correctOption": "A"
+  },
+  {
+    "id": 142,
+    "question": "What is the purpose of a variable in programming?",
+    "options": { "A": "Store data", "B": "Create loops", "C": "Display output", "D": "Define functions" },
+    "correctOption": "A"
+  },
+  {
+    "id": 143,
+    "question": "What will this output: let n=2; if(n%2==0){console.log('Even')}",
+    "options": { "A": "Even", "B": "Odd", "C": "Error", "D": "None" },
+    "correctOption": "A"
+  },
+  {
+    "id": 144,
+    "question": "The process of designing algorithms before coding is known as:",
+    "options": { "A": "Debugging", "B": "Planning", "C": "Logic design", "D": "Flowcharting" },
+    "correctOption": "C"
+  },
+  {
+    "id": 145,
+    "question": "Which of these ensures a program works as intended?",
+    "options": { "A": "Testing", "B": "Typing", "C": "Looping", "D": "Styling" },
+    "correctOption": "A"
+  },
+  {
+    "id": 146,
+    "question": "What happens when a return statement is reached in a function?",
+    "options": { "A": "Function stops", "B": "Loop starts", "C": "Variable resets", "D": "Nothing" },
+    "correctOption": "A"
+  },
+  {
+    "id": 147,
+    "question": "What does flow control mean?",
+    "options": { "A": "Order of statements executed", "B": "Speed of CPU", "C": "Data storage", "D": "Internet speed" },
+    "correctOption": "A"
+  },
+  {
+    "id": 148,
+    "question": "Which of the following is NOT a data type?",
+    "options": { "A": "Number", "B": "String", "C": "Character", "D": "Loop" },
+    "correctOption": "D"
+  },
+  {
+    "id": 149,
+    "question": "Which keyword is used to declare a variable in modern JavaScript?",
+    "options": { "A": "var", "B": "let", "C": "const", "D": "Both B and C" },
+    "correctOption": "D"
+  },
+  {
+    "id": 150,
+    "question": "What is the final goal of programming logic?",
+    "options": { "A": "Write code", "B": "Solve problems", "C": "Use syntax", "D": "Learn loops" },
+    "correctOption": "B"
+  }
+]
+

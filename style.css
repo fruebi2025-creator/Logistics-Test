@@ -1,0 +1,46 @@
+body {
+      background: #f4f6f8;
+      font-family: "Poppins", sans-serif;
+      padding: 20px;
+    }
+
+    .quiz-card {
+      max-width: 750px;
+      margin: auto;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      padding: 25px 30px;
+    }
+
+    .option {
+      background: #f8f9fa;
+      border: 2px solid transparent;
+      border-radius: 10px;
+      padding: 10px 15px;
+      cursor: pointer;
+      transition: all 0.3s;
+      margin-bottom: 10px;
+    }
+
+    .option:hover {
+      border-color: #007bff;
+    }
+
+    .option.selected {
+      background: #007bff;
+      color: white;
+    }
+
+    #nextBtn {
+      display: none;
+    }
+
+    .timer {
+      font-weight: 600;
+      color: #dc3545;
+    }
+
+    .hidden {
+      display: none;
+    }
