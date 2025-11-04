@@ -1,46 +1,199 @@
 body {
-      background: #f4f6f8;
-      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Poppins', sans-serif;
+      color: #111827;
       padding: 20px;
     }
 
-    .quiz-card {
+    .container {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+      padding: 40px;
+      width: 100%;
       max-width: 750px;
-      margin: auto;
-      background: white;
-      border-radius: 16px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-      padding: 25px 30px;
+      color: #f9fafb;
+    }
+
+    h2, h3 {
+      color: #fff;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    /* === Form === */
+    #user-form label {
+      font-weight: 500;
+      color: #f3f4f6;
+    }
+
+    #user-form input, #user-form select {
+      background: rgba(255, 255, 255, 0.85);
+      border: none;
+      border-radius: 10px;
+      padding: 10px 15px;
+    }
+
+    #start-btn {
+      background: #2563eb;
+      border: none;
+      padding: 12px;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+    #start-btn:hover {
+      background: #1d4ed8;
+      transform: scale(1.03);
+    }
+
+    /* === Quiz Section === */
+    #quiz-section {
+      animation: fadeIn 0.5s ease-in;
+    }
+
+    #courseDisplay {
+      font-size: 14px;
+      color: #e0f2fe;
+    }
+
+    #timer {
+      font-weight: bold;
+      color: #f87171;
+      background: #fff;
+      padding: 5px 12px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(255,255,255,0.2);
+    }
+    .question-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.question-image {
+  max-width: 80%;
+  margin: 15px auto;
+  display: block;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fafafa;
+  transition: transform 0.3s ease;
+}
+
+.question-image:hover {
+  transform: scale(1.03);
+}
+
+.hidden {
+  display: none;
+}
+
+
+    .question-box h5 {
+      color: #060606;
+      font-weight: 600;
+    }
+
+    .question-box  p {
+      color: #787777;
+      font-size: 18px;
+      font-weight: 500;
     }
 
     .option {
-      background: #f8f9fa;
-      border: 2px solid transparent;
+      background: rgba(255, 255, 255, 0.2);
+      padding: 12px 15px;
+      margin: 8px 0;
       border-radius: 10px;
-      padding: 10px 15px;
       cursor: pointer;
-      transition: all 0.3s;
-      margin-bottom: 10px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      border: 2px solid transparent;
+      color: #6bbaff;
+
     }
 
     .option:hover {
-      border-color: #007bff;
+      background: rgba(255, 255, 255, 0.35);
+      transform: translateY(-2px);
     }
 
-    .option.selected {
-      background: #007bff;
-      color: white;
+    .selected {
+      background: #2563eb;
+      border-color: #60a5fa;
+      color: #ffffff;
     }
 
-    #nextBtn {
-      display: none;
-    }
-
-    .timer {
+    #next-btn {
+      background: #22c55e;
+      border: none;
+      display: block;
+      margin: 1rem auto;
       font-weight: 600;
-      color: #dc3545;
+      font-size: 16px;
+      border-radius: 10px;
+      padding: 10px 25px;
+      transition: all 0.3s ease;
+    }
+
+    #next-btn:hover {
+      background: #16a34a;
+      transform: scale(1.05);
+    }
+
+    /* === Result Section === */
+    #result-section h3 {
+      color: #fff;
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+
+    #score {
+      color: #fef9c3;
+      font-weight: 600;
+      font-size: 20px;
+    }
+
+    #sendEmail {
+      background: #3b82f6;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 12px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+    #sendEmail:hover {
+      background: #2563eb;
+      transform: scale(1.05);
     }
 
     .hidden {
       display: none;
+    }
+
+    /* === Progress Bar === */
+    .progress {
+      height: 10px;
+      margin-top: 10px;
+      background: rgba(255,255,255,0.2);
+      border-radius: 10px;
+    }
+    .progress-bar {
+      background: #60a5fa;
+    }
+
+    /* === Animation === */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
     }
