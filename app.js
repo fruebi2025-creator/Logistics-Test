@@ -3,13 +3,13 @@ let currentQuestionIndex = 0;
 let score = 0;
 let selectedAnswer = null;
 let timerInterval;
-let timeLeft = 15 * 60; // 15 minutes
+let timeLeft = 10 * 60; // 10 minutes
 
 // Load JSON data
 async function loadQuizData() {
   const response = await fetch('quiz-data.json');
   const data = await response.json();
-  quizData = shuffle(data).slice(0, 30);
+  quizData = shuffle(data).slice(0, 15);
 }
 
 // Restore quiz if available
