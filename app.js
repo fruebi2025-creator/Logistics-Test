@@ -3,7 +3,7 @@ let currentQuestionIndex = 0;
 let score = 0;
 let selectedAnswer = null;
 let timerInterval;
-let timeLeft = 25 * 60; // 25 minutes
+let timeLeft = 30 * 60; // 30 minutes
 
 // Load JSON data
 async function loadQuizData() {
@@ -197,5 +197,6 @@ document.getElementById('sendEmail').addEventListener('click', () => {
   window.open(`mailto:fruebiadisinde2017@gmail.com?subject=Quiz Summary&body=${encodeURIComponent(summary)}`);
   alert('Summary email prepared!');
 });
+
 
 
