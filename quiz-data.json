@@ -45,7 +45,7 @@
   },
   {
     "id": 5,
-    "question": "Which pair is an example of input → process → output?",
+    "question": "Which pair is an example of IPO cycle algorithm?",
     "options": {
       "A": "Scan a number → add 2 → display result",
       "B": "Display result → add 2 → input",
@@ -72,23 +72,12 @@
     "correctOption": "B"
   },
   {
-    "id": 8,
-    "question": "Which of the following is used to store multiple values in one variable?",
-    "options": { "A": "array", "B": "object", "C": "string", "D": "variable" },
-    "correctOption": "A"
-  },
-  {
     "id": 9,
     "question": "Which symbol is used for assignment?",
     "options": { "A": "=", "B": "==", "C": "===", "D": ":" },
     "correctOption": "A"
   },
-  {
-    "id": 10,
-    "question": "Which of these is a valid variable name?",
-    "options": { "A": "2name", "B": "_name", "C": "-name", "D": "#name" },
-    "correctOption": "B"
-  },
+
   {
     "id": 11,
     "question": "Which of these is a string?",
@@ -179,27 +168,9 @@
     "correctOption": "B"
   },
   {
-    "id": 20,
-    "question": "Which approach helps break a large problem into manageable pieces?",
-    "options": {
-      "A": "Modularization (divide into smaller tasks)",
-      "B": "Writing everything in one block",
-      "C": "Avoid planning",
-      "D": "Use longer variable names"
-    },
-    "correctOption": "A"
-  },
-
-  {
     "id": 21,
     "question": "What will be the output of: 5 + '5'?",
     "options": { "A": "10", "B": "55", "C": "Error", "D": "undefined" },
-    "correctOption": "B"
-  },
-  {
-    "id": 22,
-    "question": "Which operator is used for strict equality comparison?",
-    "options": { "A": "==", "B": "===", "C": "=", "D": "!=" },
     "correctOption": "B"
   },
   {
@@ -207,12 +178,6 @@
     "question": "What is the result of: 10 % 3?",
     "options": { "A": "1", "B": "3", "C": "0", "D": "10" },
     "correctOption": "A"
-  },
-  {
-    "id": 24,
-    "question": "Which operator is used to compare both value and type?",
-    "options": { "A": "==", "B": "===", "C": "=", "D": "!=" },
-    "correctOption": "B"
   },
   {
     "id": 25,
@@ -258,7 +223,7 @@
   },
   {
     "id": 32,
-    "question": "If temperature > 30 then 'hot' else 'not hot'. For temperature=30 what is the result?",
+    "question": "If temperature > 30 then 'hot' else 'not hot'. What is the result when temperature = 30 ?",
     "options": {
       "A": "hot",
       "B": "not hot",
@@ -286,14 +251,8 @@
     "correctOption": "A"
   },
   {
-    "id": 36,
-    "question": "Which operator decreases a variable’s value by one?",
-    "options": { "A": "++", "B": "--", "C": "+=", "D": "-=" },
-    "correctOption": "B"
-  },
-  {
     "id": 37,
-    "question": "What is 10 > 5 && 5 < 3?",
+    "question": "What is the resut of the expression: 10 > 5 && 5 < 3?",
     "options": { "A": "true", "B": "false", "C": "undefined", "D": "error" },
     "correctOption": "B"
   },
@@ -303,12 +262,7 @@
     "options": { "A": "/", "B": "%", "C": "**", "D": "-" },
     "correctOption": "B"
   },
-  {
-    "id": 39,
-    "question": "What does 5 + true evaluate to?",
-    "options": { "A": "6", "B": "5true", "C": "true5", "D": "error" },
-    "correctOption": "A"
-  },
+
   {
     "id": 40,
     "question": "What does 5 + '2' + 3 evaluate to?",
@@ -325,17 +279,6 @@
       "D": "XOR"
     },
     "correctOption": "A"
-  },
-  {
-    "id": 42,
-    "question": "What is the correct syntax for an if statement?",
-    "options": {
-      "A": "if condition then {}",
-      "B": "if (condition) {}",
-      "C": "if {condition} then",
-      "D": "if: condition {}"
-    },
-    "correctOption": "B"
   },
   {
     "id": 43,
@@ -373,7 +316,7 @@
   },
   {
     "id": 47,
-    "question": "To validate that x is inside range [10,20], use which combined condition?",
+    "question": "To validate that x is within range 10 to 20, use which combined condition?",
     "options": {
       "A": "x >=10 AND x <=20",
       "B": "x >10 OR x <20",
@@ -400,13 +343,6 @@
     "correctOption": "B"
   },
   {
-    "id": 50,
-    "question": "In nested if statements, how many conditions can be checked?",
-    "options": { "A": "Only one", "B": "Unlimited", "C": "Two", "D": "Three" },
-    "correctOption": "B"
-  },
-
-  {
     "id": 61,
     "question": "Which loop runs a fixed number of times?",
     "options": { "A": "while", "B": "for", "C": "do-while", "D": "if" },
@@ -414,7 +350,7 @@
   },
   {
     "id": 62,
-    "question": "Which loop executes at least once?",
+    "question": "Which loop executes at least once even if the condition is false?",
     "options": { "A": "for", "B": "while", "C": "do-while", "D": "switch" },
     "correctOption": "C"
   },
@@ -423,18 +359,6 @@
     "question": "How many times does the loop run? for(let i=0; i<3; i++)",
     "options": { "A": "2", "B": "3", "C": "4", "D": "5" },
     "correctOption": "B"
-  },
-  {
-    "id": 64,
-    "question": "Which statement exits a loop early?",
-    "options": { "A": "stop", "B": "exit", "C": "break", "D": "end" },
-    "correctOption": "C"
-  },
-  {
-    "id": 65,
-    "question": "Which keyword skips the current iteration?",
-    "options": { "A": "pass", "B": "skip", "C": "continue", "D": "break" },
-    "correctOption": "C"
   },
   {
     "id": 66,
@@ -449,7 +373,7 @@
   },
   {
     "id": 67,
-    "question": "Which loop checks its condition before running?",
+    "question": "Which iterative construct checks its condition before running?",
     "options": { "A": "do-while", "B": "while", "C": "for", "D": "both B and C" },
     "correctOption": "D"
   },
@@ -465,29 +389,10 @@
     "correctOption": "A"
   },
   {
-    "id": 69,
-    "question": "A loop inside another loop is called?",
-    "options": { "A": "double loop", "B": "nested loop", "C": "multi loop", "D": "re-loop" },
-    "correctOption": "B"
-  },
-  {
     "id": 70,
     "question": "Which loop can produce infinite output if not controlled?",
     "options": { "A": "for", "B": "while", "C": "do-while", "D": "all" },
     "correctOption": "D"
-  },
-
-  {
-    "id": 81,
-    "question": "What is the correct way to declare an array?",
-    "options": { "A": "let arr = [];", "B": "let arr = ();", "C": "let arr = {}", "D": "array arr;" },
-    "correctOption": "A"
-  },
-  {
-    "id": 82,
-    "question": "What is the index of the first element in an array?",
-    "options": { "A": "0", "B": "1", "C": "-1", "D": "first" },
-    "correctOption": "A"
   },
   {
     "id": 83,
@@ -513,45 +418,6 @@
     "correctOption": "A"
   },
   {
-    "id": 85,
-    "question": "An array holds elements in contiguous order; first index is usually:",
-    "options": {
-      "A": "0",
-      "B": "1",
-      "C": "-1",
-      "D": "Depends"
-    },
-    "correctOption": "A"
-  },
-  {
-    "id": 86,
-    "question": "What is the output of ['A','B','C'][1]?",
-    "options": { "A": "A", "B": "B", "C": "C", "D": "undefined" },
-    "correctOption": "B"
-  },
-  {
-    "id": 87,
-    "question": "If an array has length 5, last valid index is:",
-    "options": {
-      "A": "4",
-      "B": "5",
-      "C": "0",
-      "D": "-1"
-    },
-    "correctOption": "A"
-  },
-  {
-    "id": 88,
-    "question": "If an array contains [3,1,4,1,5], the median after sorting is:",
-    "options": {
-      "A": "3",
-      "B": "1",
-      "C": "4",
-      "D": "5"
-    },
-    "correctOption": "A"
-  },
-  {
     "id": 89,
     "question": "Which best describes a flowchart diamond symbol?",
     "options": {
@@ -573,14 +439,6 @@
       "D": "9"
     },
     "correctOption": "A"
-  },
-
-
-  {
-    "id": 101,
-    "question": "Which keyword defines a function?",
-    "options": { "A": "method", "B": "function", "C": "fun", "D": "define" },
-    "correctOption": "B"
   },
   {
     "id": 102,
@@ -640,12 +498,6 @@
     "correctOption": "D"
   },
   {
-    "id": 107,
-    "question": "Which keyword allows a function to be reused multiple times?",
-    "options": { "A": "call", "B": "define", "C": "function", "D": "repeat" },
-    "correctOption": "C"
-  },
-  {
     "id": 108,
     "question": "If one of the conditions in an OR statement is true, the result will be:",
     "options": {
@@ -655,18 +507,6 @@
       "D": "Zero"
     },
     "correctOption": "A"
-  },
-  {
-    "id": 109,
-    "question": "Functions help to:",
-    "options": { "A": "Reuse code", "B": "Reduce code", "C": "Improve structure", "D": "All of the above" },
-    "correctOption": "D"
-  },
-  {
-    "id": 110,
-    "question": "Which of these is an anonymous function?",
-    "options": { "A": "function(){}", "B": "function myFunc(){}", "C": "() => {}", "D": "Both A and C" },
-    "correctOption": "D"
   },
 
   {
@@ -682,7 +522,7 @@
   },
   {
     "id": 122,
-    "question": "Which of the following statements is false?",
+    "question": "Which of the following expression returns false?",
     "options": {
       "A": "10 < 20",
       "B": "15 = 15",
@@ -718,12 +558,6 @@
     "id": 126,
     "question": "A sequence of logical steps to solve a problem is called?",
     "options": { "A": "Code", "B": "Algorithm", "C": "Program", "D": "Syntax" },
-    "correctOption": "B"
-  },
-  {
-    "id": 127,
-    "question": "Which statement best defines pseudocode?",
-    "options": { "A": "A code that runs", "B": "A rough logic of a program", "C": "Machine language", "D": "HTML script" },
     "correctOption": "B"
   },
   {
@@ -926,4 +760,3 @@
     "correctOption": "C"
   }
 ]
-
