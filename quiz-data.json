@@ -816,7 +816,7 @@
   },
   {
     "id": 141,
-    "question": "Which of the following is a Logical operation?",
+    "question": "Which of the following is a Logical expression?",
     "options": {
       "A": "age > 18",
       "B": "marks > 50 AND grade == 'A'",
