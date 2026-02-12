@@ -3,13 +3,13 @@ let currentQuestionIndex = 0;
 let score = 0;
 let selectedAnswer = null;
 let timerInterval;
-let timeLeft = 15 * 60; // 15 minutes
+let timeLeft = 25 * 60; // 25 minutes
 
 // Load JSON data
 async function loadQuizData() {
   const response = await fetch('quiz-data.json');
   const data = await response.json();
-  quizData = shuffle(data).slice(0, 15);
+  quizData = shuffle(data).slice(0, 25);
 }
 
 // Restore quiz if available
@@ -197,4 +197,5 @@ document.getElementById('sendEmail').addEventListener('click', () => {
   window.open(`mailto:fruebiadisinde2017@gmail.com?subject=Quiz Summary&body=${encodeURIComponent(summary)}`);
   alert('Summary email prepared!');
 });
+
 
