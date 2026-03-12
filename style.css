@@ -14,7 +14,7 @@ body {
       backdrop-filter: blur(10px);
       border-radius: 20px;
       box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
-      padding: 40px;
+      padding: 10px;
       width: 100%;
       max-width: 750px;
       color: #f9fafb;
@@ -74,7 +74,7 @@ body {
     .question-box {
   background: #fff;
   border-radius: 12px;
-  padding: 20px;
+  padding: 20px 0;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
@@ -180,13 +180,14 @@ body {
 
     /* === Progress Bar === */
     .progress {
-      background: rgba(225,225,225,0.5);
+      height: 10px;
+      margin: 20px;
+      background: rgba(0,0,0,0.5);
       border-radius: 10px;
       }
 
     #progressBar {
       height: 10px;
-      margin: 10px 0;
       background: rgba(10,255,70,0.7);
       border-radius: 10px;
       }
@@ -197,4 +198,5 @@ body {
       to { opacity: 1; transform: translateY(0); }
 
     }
+
 
