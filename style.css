@@ -111,7 +111,8 @@ body {
     .option {
       background: rgba(255, 255, 255, 0.2);
       padding: 12px 15px;
-      margin: 8px 0;
+      margin: 8px auto;
+      width: 50%;
       border-radius: 10px;
       cursor: pointer;
       font-weight: 500;
@@ -198,5 +199,6 @@ body {
       to { opacity: 1; transform: translateY(0); }
 
     }
+
 
 
